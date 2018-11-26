@@ -1,0 +1,643 @@
+type: show
+providers: 
+[
+    {
+        "id": 8,
+        "profile_id": 76,
+        "technical_name": "netflix",
+        "short_name": "nfx",
+        "clear_name": "Netflix",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 10,
+        "display_priority": 1,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/430997/{profile}",
+        "slug": "netflix"
+    },
+    {
+        "id": 39,
+        "profile_id": 79,
+        "technical_name": "nowtv",
+        "short_name": "ntv",
+        "clear_name": "Now TV",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 2,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/694554/{profile}",
+        "slug": "now-tv"
+    },
+    {
+        "id": 9,
+        "profile_id": 75,
+        "technical_name": "amazonprime",
+        "short_name": "amp",
+        "clear_name": "Amazon Prime Video",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 4,
+        "display_priority": 3,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/52449539/{profile}",
+        "slug": "amazon-prime-video"
+    },
+    {
+        "id": 10,
+        "profile_id": 81,
+        "technical_name": "amazon",
+        "short_name": "amz",
+        "clear_name": "Amazon Video",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 4,
+        "display_priority": 4,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/430993/{profile}",
+        "slug": "amazon-video"
+    },
+    {
+        "id": 103,
+        "profile_id": 290,
+        "technical_name": "all4",
+        "short_name": "al4",
+        "clear_name": "All 4",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 5,
+        "domains": [],
+        "monetization_types": [
+            "free"
+        ],
+        "icon_url": "/icon/3059247/{profile}",
+        "slug": "all-4"
+    },
+    {
+        "id": 29,
+        "profile_id": 130,
+        "technical_name": "skygo",
+        "short_name": "skg",
+        "clear_name": "Sky Go",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 6,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/657328/{profile}",
+        "slug": "sky-go"
+    },
+    {
+        "id": 38,
+        "profile_id": 80,
+        "technical_name": "bbc",
+        "short_name": "bbc",
+        "clear_name": "BBC iPlayer",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 7,
+        "domains": [],
+        "monetization_types": [
+            "free"
+        ],
+        "icon_url": "/icon/694553/{profile}",
+        "slug": "bbc-iplayer"
+    },
+    {
+        "id": 223,
+        "profile_id": 637,
+        "technical_name": "hayu",
+        "short_name": "hay",
+        "clear_name": "hayu",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 8,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/89154446/{profile}",
+        "slug": "hayu"
+    },
+    {
+        "id": 224,
+        "profile_id": 639,
+        "technical_name": "bfi",
+        "short_name": "bfi",
+        "clear_name": "BFI Player",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 9,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "free",
+            "flatrate"
+        ],
+        "icon_url": "/icon/90084630/{profile}",
+        "slug": "bfi-player"
+    },
+    {
+        "id": 3,
+        "profile_id": 82,
+        "technical_name": "play",
+        "short_name": "ply",
+        "clear_name": "Google Play Movies",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 4,
+        "display_priority": 10,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/430996/{profile}",
+        "slug": "google-play-movies"
+    },
+    {
+        "id": 2,
+        "profile_id": 78,
+        "technical_name": "itunes",
+        "short_name": "itu",
+        "clear_name": "Apple iTunes",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 11,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/430995/{profile}",
+        "slug": "apple-itunes"
+    },
+    {
+        "id": 130,
+        "profile_id": 367,
+        "technical_name": "skystore",
+        "short_name": "sks",
+        "clear_name": "Sky Store",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 12,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/4610466/{profile}",
+        "slug": "sky-store"
+    },
+    {
+        "id": 102,
+        "profile_id": 598,
+        "technical_name": "filmstruck",
+        "short_name": "fsk",
+        "clear_name": "FilmStruck",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 13,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/3059246/{profile}",
+        "slug": "filmstruck"
+    },
+    {
+        "id": 194,
+        "profile_id": 601,
+        "technical_name": "amazonstarzplay",
+        "short_name": "ast",
+        "clear_name": "Starz Play Amazon Channel",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 14,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/68363608/{profile}",
+        "slug": "starz-play-amazon-channel"
+    },
+    {
+        "id": 137,
+        "profile_id": 390,
+        "technical_name": "uktvplay",
+        "short_name": "ukt",
+        "clear_name": "UKTV Play",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 15,
+        "domains": [],
+        "monetization_types": [
+            "ads"
+        ],
+        "icon_url": "/icon/5149848/{profile}",
+        "slug": "uktv-play"
+    },
+    {
+        "id": 41,
+        "profile_id": 77,
+        "technical_name": "itv",
+        "short_name": "itv",
+        "clear_name": "ITV Player",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 16,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/694556/{profile}",
+        "slug": "itv-player"
+    },
+    {
+        "id": 129,
+        "profile_id": 366,
+        "technical_name": "disneylife",
+        "short_name": "dli",
+        "clear_name": "DisneyLife",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 17,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/4527547/{profile}",
+        "slug": "disneylife"
+    },
+    {
+        "id": 99,
+        "profile_id": 275,
+        "technical_name": "shudder",
+        "short_name": "shd",
+        "clear_name": "Shudder",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 18,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/2562359/{profile}",
+        "slug": "shudder"
+    },
+    {
+        "id": 93,
+        "profile_id": 271,
+        "technical_name": "talktalktv",
+        "short_name": "ttv",
+        "clear_name": "Talk Talk TV",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 19,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/2422254/{profile}",
+        "slug": "talk-talk-tv"
+    },
+    {
+        "id": 35,
+        "profile_id": 84,
+        "technical_name": "wuaki",
+        "short_name": "wki",
+        "clear_name": "Rakuten TV",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 20,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy",
+            "flatrate"
+        ],
+        "icon_url": "/icon/10923449/{profile}",
+        "slug": "rakuten-tv"
+    },
+    {
+        "id": 177,
+        "profile_id": 588,
+        "technical_name": "pantaflix",
+        "short_name": "pfx",
+        "clear_name": "Pantaflix",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 21,
+        "domains": [],
+        "monetization_types": [
+            "rent"
+        ],
+        "icon_url": "/icon/93814499/{profile}",
+        "slug": "pantaflix"
+    },
+    {
+        "id": 192,
+        "profile_id": 595,
+        "technical_name": "youtube",
+        "short_name": "yot",
+        "clear_name": "YouTube",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 22,
+        "domains": [],
+        "monetization_types": [
+            "buy",
+            "rent"
+        ],
+        "icon_url": "/icon/59562423/{profile}",
+        "slug": "youtube"
+    },
+    {
+        "id": 18,
+        "profile_id": 85,
+        "technical_name": "playstation",
+        "short_name": "pls",
+        "clear_name": "PlayStation",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 23,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/446737/{profile}",
+        "slug": "playstation"
+    },
+    {
+        "id": 68,
+        "profile_id": 157,
+        "technical_name": "microsoft",
+        "short_name": "msf",
+        "clear_name": "Microsoft Store",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 24,
+        "domains": [],
+        "monetization_types": [
+            "buy",
+            "rent"
+        ],
+        "icon_url": "/icon/820542/{profile}",
+        "slug": "microsoft-store"
+    },
+    {
+        "id": 40,
+        "profile_id": 87,
+        "technical_name": "chili",
+        "short_name": "chi",
+        "clear_name": "Chili",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 25,
+        "domains": [],
+        "monetization_types": [
+            "rent",
+            "buy"
+        ],
+        "icon_url": "/icon/32734208/{profile}",
+        "slug": "chili"
+    },
+    {
+        "id": 11,
+        "profile_id": 88,
+        "technical_name": "mubi",
+        "short_name": "mbi",
+        "clear_name": "Mubi",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 11,
+        "display_priority": 26,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/438826/{profile}",
+        "slug": "mubi"
+    },
+    {
+        "id": 73,
+        "profile_id": 581,
+        "technical_name": "tubitv",
+        "short_name": "tbv",
+        "clear_name": "Tubi TV",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 27,
+        "domains": [],
+        "monetization_types": [
+            "ads"
+        ],
+        "icon_url": "/icon/911362/{profile}",
+        "slug": "tubi-tv"
+    },
+    {
+        "id": 100,
+        "profile_id": 372,
+        "technical_name": "guidedoc",
+        "short_name": "gdc",
+        "clear_name": "GuideDoc",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 28,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/2625277/{profile}",
+        "slug": "guidedoc"
+    },
+    {
+        "id": 81,
+        "profile_id": 266,
+        "technical_name": "movietickets",
+        "short_name": "mts",
+        "clear_name": "Movietickets",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 29,
+        "domains": [],
+        "monetization_types": [
+            "cinema"
+        ],
+        "icon_url": "/icon/922529/{profile}",
+        "slug": "movietickets"
+    },
+    {
+        "id": 175,
+        "profile_id": 553,
+        "technical_name": "netflixkids",
+        "short_name": "nfk",
+        "clear_name": "Netflix Kids",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 30,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/14385750/{profile}",
+        "slug": "netflix-kids"
+    },
+    {
+        "id": 188,
+        "profile_id": 605,
+        "technical_name": "youtubered",
+        "short_name": "ytr",
+        "clear_name": "YouTube Premium",
+        "has_global_account": false,
+        "can_create_title": false,
+        "data": {
+            "public_info": false
+        },
+        "priority": 5,
+        "display_priority": 31,
+        "domains": [],
+        "monetization_types": [
+            "flatrate"
+        ],
+        "icon_url": "/icon/70189310/{profile}",
+        "slug": "youtube-premium"
+    }
+]
+
+
+
+
+
+
