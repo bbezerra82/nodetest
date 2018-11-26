@@ -2,12 +2,12 @@ const JustWatch = require('justwatch-api');
 const JSONQuery = require('json-query');
 
 function printResult(name, result) {
-    // console.log(name + ': ');
+    console.log(name + ': ');
     console.log(JSON.stringify(result, null, 4));
     // console.log('\n\n\n\n\n');
 }
 
-(async function() {
+(async function () {
     let jw = new JustWatch({
         locale: 'en_US'
     });
@@ -20,11 +20,35 @@ function printResult(name, result) {
     let providerId = searchResult.items[0].offers[0].provider_id;
     // console.log('provider id:' + provider);
 
-    var providerName = JSONQuery()
+    let providers = await jw.getProviders({});
 
-    // let providerName = await jw.getProviders({
-    //     query: provider
-    // });
+    let providerName = JSONQuery(`[id=${providerId}].clear_name`, {
+        data: providers
+    }).value;
+
+    console.log(`providerName = ${providerName}`);
+
+    let data = [
+        {
+            "id": 8, 
+            "profile_id": 13, 
+            "technical_name": "netflix", 
+            "short_name": "nfx", 
+            "clear_name": "Netflix",
+        },
+        {
+            "id":192,
+            "profile_id":590,
+            "technical_name":"youtube",
+            "short_name":"yot",
+            "clear_name":"YouTube"
+        }
+    ]
+    // var providerName = JSONQuery('[id=192].clear_name', {
+    //     data: data
+    // })
+
+    // console.log(providerName.value);
 
     // printResult('provider', providerName)
     // console.log('providerName: ' + providerName);
