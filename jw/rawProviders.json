@@ -1,5 +1,3 @@
-type: show
-providers: 
 [
     {
         "id": 8,
@@ -177,9 +175,9 @@ providers:
         "display_priority": 9,
         "domains": [],
         "monetization_types": [
-            "free",
             "flatrate",
-            "rent"
+            "rent",
+            "free"
         ],
         "icon_url": "/icon/90084630/{profile}",
         "slug": "bfi-player"
@@ -241,8 +239,8 @@ providers:
         "display_priority": 12,
         "domains": [],
         "monetization_types": [
-            "buy",
-            "rent"
+            "rent",
+            "buy"
         ],
         "icon_url": "/icon/4610466/{profile}",
         "slug": "sky-store"
@@ -466,8 +464,8 @@ providers:
         "display_priority": 23,
         "domains": [],
         "monetization_types": [
-            "buy",
-            "rent"
+            "rent",
+            "buy"
         ],
         "icon_url": "/icon/446737/{profile}",
         "slug": "playstation"
@@ -487,8 +485,8 @@ providers:
         "display_priority": 24,
         "domains": [],
         "monetization_types": [
-            "rent",
-            "buy"
+            "buy",
+            "rent"
         ],
         "icon_url": "/icon/820542/{profile}",
         "slug": "microsoft-store"
@@ -635,9 +633,3 @@ providers:
         "slug": "youtube-premium"
     }
 ]
-
-
-
-
-
-

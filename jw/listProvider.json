@@ -1,0 +1,157 @@
+[
+  {
+    "id": 8,
+    "clear_name": "Netflix",
+    "short_name": "nfx"
+  },
+  {
+    "id": 39,
+    "clear_name": "Now TV",
+    "short_name": "ntv"
+  },
+  {
+    "id": 9,
+    "clear_name": "Amazon Prime Video",
+    "short_name": "amp"
+  },
+  {
+    "id": 10,
+    "clear_name": "Amazon Video",
+    "short_name": "amz"
+  },
+  {
+    "id": 103,
+    "clear_name": "All 4",
+    "short_name": "al4"
+  },
+  {
+    "id": 29,
+    "clear_name": "Sky Go",
+    "short_name": "skg"
+  },
+  {
+    "id": 38,
+    "clear_name": "BBC iPlayer",
+    "short_name": "bbc"
+  },
+  {
+    "id": 223,
+    "clear_name": "hayu",
+    "short_name": "hay"
+  },
+  {
+    "id": 224,
+    "clear_name": "BFI Player",
+    "short_name": "bfi"
+  },
+  {
+    "id": 3,
+    "clear_name": "Google Play Movies",
+    "short_name": "ply"
+  },
+  {
+    "id": 2,
+    "clear_name": "Apple iTunes",
+    "short_name": "itu"
+  },
+  {
+    "id": 130,
+    "clear_name": "Sky Store",
+    "short_name": "sks"
+  },
+  {
+    "id": 102,
+    "clear_name": "FilmStruck",
+    "short_name": "fsk"
+  },
+  {
+    "id": 194,
+    "clear_name": "Starz Play Amazon Channel",
+    "short_name": "ast"
+  },
+  {
+    "id": 137,
+    "clear_name": "UKTV Play",
+    "short_name": "ukt"
+  },
+  {
+    "id": 41,
+    "clear_name": "ITV Player",
+    "short_name": "itv"
+  },
+  {
+    "id": 129,
+    "clear_name": "DisneyLife",
+    "short_name": "dli"
+  },
+  {
+    "id": 99,
+    "clear_name": "Shudder",
+    "short_name": "shd"
+  },
+  {
+    "id": 93,
+    "clear_name": "Talk Talk TV",
+    "short_name": "ttv"
+  },
+  {
+    "id": 35,
+    "clear_name": "Rakuten TV",
+    "short_name": "wki"
+  },
+  {
+    "id": 177,
+    "clear_name": "Pantaflix",
+    "short_name": "pfx"
+  },
+  {
+    "id": 192,
+    "clear_name": "YouTube",
+    "short_name": "yot"
+  },
+  {
+    "id": 18,
+    "clear_name": "PlayStation",
+    "short_name": "pls"
+  },
+  {
+    "id": 68,
+    "clear_name": "Microsoft Store",
+    "short_name": "msf"
+  },
+  {
+    "id": 40,
+    "clear_name": "Chili",
+    "short_name": "chi"
+  },
+  {
+    "id": 11,
+    "clear_name": "Mubi",
+    "short_name": "mbi"
+  },
+  {
+    "id": 73,
+    "clear_name": "Tubi TV",
+    "short_name": "tbv"
+  },
+  {
+    "id": 100,
+    "clear_name": "GuideDoc",
+    "short_name": "gdc"
+  },
+  {
+    "id": 81,
+    "clear_name": "Movietickets",
+    "short_name": "mts"
+  },
+  {
+    "id": 175,
+    "clear_name": "Netflix Kids",
+    "short_name": "nfk"
+  },
+  {
+    "id": 188,
+    "clear_name": "YouTube Premium",
+    "short_name": "ytr"
+  }
+]
