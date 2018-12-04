@@ -1,6 +1,6 @@
 const JustWatch = require('./justWatchAPI.js');
 const JSONQuery = require('json-query');
-const jq = require('node-jq');
+// const jq = require('node-jq');
 
 function printResult(name, result) {
     // console.log(name + ': ');
@@ -36,20 +36,32 @@ function printResult(name, result) {
     // console.log(JSON.stringify(release, null, 4));
     // console.log(JSON.stringify(short_description, null, 4));
     // console.log(JSON.stringify(offers, null, 4));
-    console.log(offers.length)
+    // console.log(offers.length)
 
     let movies = []
     for (i = 0; (i < arraySize); i++) {
-        let offers = JSONQuery(`[items].offers`, {data:searchResult}).value;
-        movies.push({
+        let item = {
             title: title[i],
             release: release[i],
             description: short_description[i],
-            offers: offers[i]
-        })
+            offers: []
+        }
+        let offersList = JSONQuery(`[items][title=${title[i]}].offers`, {data:searchResult}).value;
+        // console.log(JSON.stringify(offersList, null, 4));
+        let monetization_type = JSONQuery(`.monetization_type`, {data:offersList}).value;
+        console.log(JSON.stringify(monetization_type, null, 4));
+        for (j = 0; (j < offersList.length); j++) {
+            // console.log(JSON.stringify(offersList[j], null, 4));
+            item.offers[j] = offersList[j];
+        }
+        
+        // console.log(JSON.stringify(item, null, 4));
+            
+
+        movies.push(item)
     }
 
-    // console.log(movies)
+    // console.log(JSON.stringify(movies, null, 4))
     
     
     // console.log(JSON.stringify(offers, null, 4))
